@@ -72,8 +72,8 @@ $language_data = array (
     'STYLES' => array(
         'KEYWORDS' => array(
             1 => 'color: #0000FF;',
-            2 => 'color: #0000FF;'
-            3 => 'color: #0000FF;'
+            2 => 'color: #0000FF;',
+            3 => 'color: #0000FF;',
             4 => 'color: #0000FF;'
             ),
         'COMMENTS' => array(
