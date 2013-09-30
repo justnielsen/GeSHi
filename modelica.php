@@ -38,23 +38,27 @@ $language_data = array (
         2 => "/(?<![\\w\\)\\]\\}\\.])('[^\\n']*?')/"
         ),
     'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
-    'QUOTEMARKS' => array(),
+    'QUOTEMARKS' => array('"'),
     'ESCAPE_CHAR' => '',
     'KEYWORDS' => array(
+        // Modelica keywords
         1 => array(
             'annotation', 'assert', 'block', 'class', 'connector', 'constant', 'discrete', 'else', 'elseif', 'elsewhen', 'end', 'equation', 'exit', 'extends',
-			'external', 'final', 'flow', 'for', 'function', 'if', 'import', 'in', 'inner', 'input', 'loop', 'model', 'nondiscrete', 'outer', 'output', 'package',
-			'parameter', 'record', 'redeclare', 'replaceable', 'return', 'size', 'terminate', 'then', 'type', 'when', 'while'
+            'external', 'final', 'flow', 'for', 'function', 'if', 'import', 'in', 'inner', 'input', 'loop', 'model', 'nondiscrete', 'outer', 'output', 'package',
+            'parameter', 'record', 'redeclare', 'replaceable', 'return', 'size', 'terminate', 'then', 'type', 'when', 'while'
             ),
+        // Section separators
         2 => array(
             'algorithm', 'equation', 'protected', 'public'
             ),
+        // Operators/functions
         3 => array(
-			'abs','acos','asin','atan','atan2','connect','cos','cosh','cross','der',
-			'edge','exp','initial','noEvent', 'pre','reinit','sample','sign','sin',
-			'sinh','tan','tanh','terminal'
+            'abs','acos','asin','atan','atan2','connect','cos','cosh','cross','der',
+            'edge','exp','initial','noEvent', 'pre','reinit','sample','sign','sin',
+            'sinh','tan','tanh','terminal'
             ),
-        2 => array(
+        // Operators
+        4 => array(
             'true', 'false', 'and', 'or','not'
             )
         ),
@@ -76,8 +80,9 @@ $language_data = array (
             4 => 'color: #0000FF;'
             ),
         'COMMENTS' => array(
-            1 => 'color: #228B22;',
-            2 => 'color:#A020F0;'
+            1 => 'color: #228B22; font-style: italic;',
+            2 => 'color:#A020F0; font-style: italic;',
+            'MULTI' => 'color: #228B22;'
             ),
         'ESCAPE_CHAR' => array(
             0 => ''
@@ -86,14 +91,15 @@ $language_data = array (
             0 => 'color: #080;'
             ),
         'STRINGS' => array(
-            //0 => 'color: #A020F0;'
+            0 => 'color: green;'
             ),
         'NUMBERS' => array(
-            0 => 'color: #33f;'
+            0 => 'color: #009999;'
             ),
         'METHODS' => array(
-            1 => '',
-            2 => ''
+            0 => 'color: #445588;',
+            1 => 'color: #445588;',
+            2 => 'color: #445588;'
             ),
         'SYMBOLS' => array(
             0 => 'color: #080;'
