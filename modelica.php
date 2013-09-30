@@ -33,8 +33,7 @@
 $language_data = array (
     'LANG_NAME' => 'Modelica',
     'COMMENT_SINGLE' => array(1 => '//'),
-    'COMMENT_MULTI' => array(),
-    //Matlab Strings
+    'COMMENT_MULTI' => array('/*' => '*/'),
     'COMMENT_REGEXP' => array(
         2 => "/(?<![\\w\\)\\]\\}\\.])('[^\\n']*?')/"
         ),
