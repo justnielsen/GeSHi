@@ -60,6 +60,10 @@ $language_data = array (
         // Operators
         4 => array(
             'true', 'false', 'and', 'or','not'
+            ),
+        // Superclasses
+        5 => array(
+            'Modelica', 'SIunits'
             )
         ),
     'SYMBOLS' => array(
@@ -77,7 +81,8 @@ $language_data = array (
             1 => 'color: #0000FF;',
             2 => 'color: #0000FF;',
             3 => 'color: #0000FF;',
-            4 => 'color: #0000FF;'
+            4 => 'color: #0000FF;',
+            5 => 'color: #445588;'
             ),
         'COMMENTS' => array(
             1 => 'color: #228B22; font-style: italic;',
@@ -117,8 +122,7 @@ $language_data = array (
         ),
     'OOLANG' => true,
     'OBJECT_SPLITTERS' => array(
-        1 => '.',
-        2 => '::'
+        1 => '.'
         ),
     'REGEXPS' => array(
         //Complex numbers
