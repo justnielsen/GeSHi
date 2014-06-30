@@ -45,7 +45,7 @@ $language_data = array (
         1 => array(
             'annotation', 'assert', 'block', 'class', 'connector', 'constant', 'discrete', 'else', 'elseif', 'elsewhen', 'end', 'equation', 'exit', 'extends',
             'external', 'final', 'flow', 'for', 'function', 'if', 'import', 'in', 'inner', 'input', 'loop', 'model', 'nondiscrete', 'outer', 'output', 'package',
-            'parameter', 'record', 'redeclare', 'replaceable', 'return', 'size', 'terminate', 'then', 'type', 'when', 'while'
+            'parameter', 'record', 'redeclare', 'replaceable', 'return', 'size', 'stream', 'terminate', 'then', 'type', 'when', 'while'
             ),
         // Section separators
         2 => array(
