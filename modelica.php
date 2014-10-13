@@ -63,8 +63,12 @@ $language_data = array (
             ),
         // Superclasses
         5 => array(
-            'Modelica', 'SIunits'
-            )
+            'Modelica', 'SIunits', 'Advanced'
+            ),
+		// Types
+		6 => array(
+			'Boolean', 'Real', 'String', 'Integer'
+			)
         ),
     'SYMBOLS' => array(
         '...'
@@ -82,7 +86,8 @@ $language_data = array (
             2 => 'color: #0000FF;',
             3 => 'color: #0000FF;',
             4 => 'color: #0000FF;',
-            5 => 'color: #445588;'
+            5 => 'color: #445588;',
+			6 => 'color: #FF0000;'
             ),
         'COMMENTS' => array(
             1 => 'color: #228B22; font-style: italic;',
